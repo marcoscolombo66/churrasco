@@ -1,0 +1,118 @@
+body {
+    background-color: #2a1a5e;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card.product-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%; 
+}
+
+.card-body {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card-text strong {
+    font-weight: bold;
+}
+
+.card-text-desc{
+    color: #666;
+    font-size: 0.9rem;
+    height:30px;
+}
+
+.btn {
+    background-color: #3a1a8e;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #2a1a5e;
+    color: #fff;
+}
+
+.product-card .card-body {
+    background-color: #f8f9fa;
+    border-radius: 0 0 10px 10px;
+}
+
+.product-card .card-body p {
+    margin-bottom: 10px;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+}
+
+.card-body {
+    flex-grow: 1;  
+    max-height: 190px;
+    min-height: 190px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; 
+    width: 100%;
+}
+
+.card {
+    height: 100%;  
+}
+.page-link{
+    color:#2a1a5e;
+}
+
+@media (max-width: 768px) {
+    .col-sm-6 {
+        max-width: 100% !important;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
